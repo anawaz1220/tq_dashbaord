@@ -43,7 +43,7 @@ const Dashboard = () => {
       <div className="mb-8">
         <div className="flex items-center gap-4 mb-2">
           <img
-            src="/teraquant-logo.png"
+            src="https://teraquant.com/wp-content/uploads/2019/08/terraquant-logos.png"
             alt="Teraquant Logo"
             className="h-12 w-auto"
           />
