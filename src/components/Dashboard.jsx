@@ -43,13 +43,13 @@ const Dashboard = () => {
       <div className="mb-8">
         <div className="flex items-center gap-4 mb-2">
           <img
-            src="https://teraquant.com/wp-content/uploads/2019/08/terraquant-logos.png"
+            src={import.meta.env.BASE_URL + 'teraquant-logo.svg'}
             alt="Teraquant Logo"
             className="h-12 w-auto"
           />
           <div>
             <h1 className="text-3xl font-bold text-gray-800">
-              TQ_Rating Server Dashboard
+              TQ_Trust Dashboard
             </h1>
             <p className="text-gray-600">
               TQ_Trust Platform - Telecommunications Fraud Detection System
